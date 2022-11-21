@@ -1,0 +1,18 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Sat Aug 21 11:33:26 2021
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "counter<5>" LOCATE = SITE "U18" LEVEL 1;
+COMP "counter<6>" LOCATE = SITE "T17" LEVEL 1;
+COMP "counter<7>" LOCATE = SITE "T18" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+COMP "reset" LOCATE = SITE "M18" LEVEL 1;
+COMP "counter<0>" LOCATE = SITE "P15" LEVEL 1;
+COMP "counter<1>" LOCATE = SITE "P16" LEVEL 1;
+COMP "counter<2>" LOCATE = SITE "N15" LEVEL 1;
+COMP "counter<3>" LOCATE = SITE "N16" LEVEL 1;
+COMP "counter<4>" LOCATE = SITE "U17" LEVEL 1;
+NET "clk_BUFGP/IBUFG" PERIOD = 10 ns HIGH 50%;
+SCHEMATIC END;
+

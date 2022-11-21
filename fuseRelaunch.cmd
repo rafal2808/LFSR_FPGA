@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/Elektronika/FPGA/projekty/xilinx/LFSR/counter_isim_beh.exe" -prj "D:/Elektronika/FPGA/projekty/xilinx/LFSR/counter_beh.prj" "work.counter" 
